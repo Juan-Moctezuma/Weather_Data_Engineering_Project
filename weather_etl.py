@@ -99,6 +99,7 @@ def run_weather_etl():
         f_output.write(data)
     
     ### LOAD
+    # You need to create a free-tier account with Amazon AWS for this step
     # There's 2 use cases of data : 
     # A) Update rows & inserting new rows (like change in data for an online account).
     # B) Rows that never get updated once loaded (like record transactions as ex.)
