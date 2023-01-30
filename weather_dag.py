@@ -4,6 +4,7 @@ from datetime import datetime
 from datetime import timedelta
 
 # Import ETL & Delete functions - each used for one DAG
+# Prerequisites : Docker and Apache Airflow need to be installed 
 from weather_etl import run_weather_etl
 from data_delete import run_delete
 
