@@ -35,8 +35,9 @@ scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/au
          "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
 
 credentials = ServiceAccountCredentials.from_json_keyfile_name('weather-data-service-account.json', scope)
+# You may name the previous json file however you want - you get this from google developer console
 client = gspread.authorize(credentials)
-spreadsheet_id = '1MsGqy9bv_04f9-Ym5zdCyehjaBlv0CK92AZNpx7h8q4' # obtained from google sheet's url
+spreadsheet_id = '2Ms*************************' # obtained from google sheet's url
 
 # Content gets copied into from CSV into created google sheet
 with open('./data/weather_data.csv', 'r') as file_obj:
