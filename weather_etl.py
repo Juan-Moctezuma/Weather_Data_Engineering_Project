@@ -109,10 +109,10 @@ def run_weather_etl():
     print(df)
 
     # Connection info.
-    host_name = 'database-1.coivz05orajj.us-east-1.rds.amazonaws.com'
+    host_name = 'database-1.*********.us-******.rds.amazonaws.com'
     dbname = 'weather_db'
-    username = 'postgres'
-    password = 'Le9o1na4!050805'
+    username = 'username'
+    password = '************'
     port = '5432'
 
     # Create connection
@@ -145,8 +145,8 @@ def run_weather_etl():
     conn.commit()
 
     # The engine uses AWS's credentials to load into a postgresql database via Azure Data Studio
-    engine = create_engine("postgresql+psycopg2://postgres:Le9o1na4!050805@database-1.coivz05orajj.us-east-1.rds.amazonaws.com:5432/weather_db")
-    df.to_sql(name="weather_data", con=engine, if_exists='append', index=False)
+    engine = create_engine("postgresql+psycopg2://username:password@host_name:port/dbname")
+    df.to_sql(name="weather_data", con=engine, if_exists='append', index=False) #Set 'weather_data' database on AWS
     # End of ETL-Pipeline function
 # Now we call the pipeline function
 run_weather_etl()   
