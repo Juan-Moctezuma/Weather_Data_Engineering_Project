@@ -3,10 +3,10 @@ import psycopg2 as ps
 # Define a 'delete' function - which gets rid of old data
 def run_delete():
     # Provide AWS' Connection info.
-    host_name = 'database-1.coivz05orajj.us-east-1.rds.amazonaws.com'
+    host_name = 'database-1.*********.us-*********.rds.amazonaws.com'
     dbname = 'weather_db'
-    username = 'postgres'
-    password = 'Le9o1na4!050805'
+    username = 'username'
+    password = '*************'
     port = '5432'
 
     # Create connection
