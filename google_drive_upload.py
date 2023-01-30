@@ -7,7 +7,7 @@ from pydrive.drive import GoogleDrive
 gauth = GoogleAuth()
 # gauth.LocalWebserverAuth() # This will open Chrome / Google account everytime
 
-# Try to load saved client's info into credentials file
+# Try to load saved client's info into credentials file (get from Google developer console)
 gauth.LoadCredentialsFile("credentials.json")
 if gauth.credentials is None:
     # Authenticate if they're not there
