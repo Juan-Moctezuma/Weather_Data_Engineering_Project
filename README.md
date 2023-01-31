@@ -15,7 +15,7 @@ The purpose of this data project is to demonstrate how weather data from multipl
    - Info. gets stored in a database - which is set up by Amazon Web Services (AWS) and uses Azure Data Studio (Graphical User Interface to run queries)
    - Info. gets iterated into a Google Sheet (Google Developers' credentials required), which gets connected to Tableau Public (Data Visualization tool)
   
-### How Was this Built? - Visual Representation
+## How Was this Built? - Visual Representation
 ### Part 1 - Active API Key was obtained from *OpenWeather*
 <img src="Assets/OpenWeather.png" width="80%">
 
@@ -61,6 +61,7 @@ Click the following to see the dashboard: https://public.tableau.com/app/profile
 
 ### Outcomes
 1. Data integration - Real world 'ETL' processes applied
-2. Data Management - Planning the flow of data (& the required tools or technologies) and basic data architecture
+2. Data Management - Planning the flow of data and basic data architecture
 3. Dashboard - Visual representation of real-time weather results ('snapshot') provided by the author's code
 4. Programming - Python 3 (language used to build and compile the rest of the tools) & PostgreSQL (for database design and results' verification)
+5. Project Management - Planning which tools and techniques to use for the completion of the engineering project
