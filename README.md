@@ -1,6 +1,6 @@
 # Weather Data Engineering Project
 
-### Technical Description in Non-Technical Terms
+## Technical Description in Non-Technical Terms
 The purpose of this data project is to demonstrate how weather data from multiple cities in the U.S. gets extracted or fetched from *OpenWeather*, an open source (specifically an API - Application Programming Interface). Then it gets transformed or converted into the correct format, and finally loaded into a Postgre SQL database and into a Google Sheet (required step for data visualization with Tableau). The "Extraction Transforming & Loading" (ETL) process mentioned previously was completed with Python programming language across multiple scripts or files. However, additional processes include the automation of workflow (with Apache Airflow), and the use of several external technologies such as Amazon Web Services (AWS), Azure Data Studio, Docker & Google Developement software (credentials). 
 
 ### Diagram For Technologies involved
@@ -27,10 +27,10 @@ Docker & Airflow were installed
 ### Part 3
 <img src="Assets/Python_code.gif" width="80%">
 Four different Python scripts were written:
-1. Weather_etl - Main script containing the pipeline and generates CSV file
-2. Data_delete - script that deletes old data from the database 
-3. Weather_dag - automation code which runs the 2 previous scripts
-4. Google_drive_upload - script that loads data from local computer into Google Drive
+   1. Weather_etl - Main script containing the pipeline and generates CSV file
+   2. Data_delete - script that deletes old data from the database 
+   3. Weather_dag - automation code which runs the 2 previous scripts
+   4. Google_drive_upload - script that loads data from local computer into Google Drive
 
 ### Part 4
 <img src="Assets/AWS.png" width="80%">
@@ -48,7 +48,7 @@ Google credentials were created and downloaded as .JSON files
 <img src="Assets/Tableau_results.gif" width="80%">
 Results were manually compiled into a dashboard. Click the following to see the dashboard: https://public.tableau.com/app/profile/juan.moctezuma.flores/viz/WeatherData-U_S_Cities/RESULTSDASHBOARD
 
-### Technologies
+## Technologies
 1. Airflow - Workflow Management Platform
 2. Cloud Technologies/Tools:
    - Amazon Web Services - free tier version
@@ -64,7 +64,7 @@ Results were manually compiled into a dashboard. Click the following to see the 
 7. Visual Studio Code (Main Programming Tool)
 8. Tableau Public (data visualization tool)
 
-### Outcomes
+## Outcomes
 1. Data integration - Real world 'ETL' processes applied
 2. Data Management - Planning the flow of data (& the required tools or technologies) and basic data architecture
 3. Dashboard - Visual representation of real-time weather results ('snapshot') provided by the author's code
