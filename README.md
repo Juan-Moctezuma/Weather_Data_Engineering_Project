@@ -43,7 +43,7 @@ The purpose of this data project is to demonstrate how weather data from multipl
 <img src="Assets/Tableau_results.gif" width="80%">
 Click the following to see the dashboard: https://public.tableau.com/app/profile/juan.moctezuma.flores/viz/WeatherData-U_S_Cities/RESULTSDASHBOARD
 
-### Technologies
+## Technologies
 1. Airflow - Workflow Management Platform
 2. Cloud Technologies/Tools:
    - Amazon Web Services - free tier version
@@ -59,9 +59,9 @@ Click the following to see the dashboard: https://public.tableau.com/app/profile
 7. Visual Studio Code (Main Programming Tool)
 8. Tableau Public (data visualization tool)
 
-### Outcomes
+## Outcomes
 1. Data integration - Real world 'ETL' processes applied
 2. Data Management - Planning the flow of data and basic data architecture
 3. Dashboard - Visual representation of real-time weather results ('snapshot') provided by the author's code
 4. Programming - Python 3 (language used to build and compile the rest of the tools) & PostgreSQL (for database design and results' verification)
-5. Project Management - Planning which tools and techniques to use for the completion of the engineering project
+5. Project Management - Planning which tools and techniques to use for the completion of the engineering project and deliverable (dashboard)
