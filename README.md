@@ -20,7 +20,7 @@ The purpose of this data project is to demonstrate how weather data from multipl
 <img src="Assets/OpenWeather.png" width="80%">
 
 ### Part 2 - Docker & Airflow were installed
-<img src="Assets/Docker.png" width="80%">
+<img src="Assets/Docker2.png" width="80%">
 
 ### Part 3 - Four different Python scripts were written
 <img src="Assets/Python_code.gif" width="80%">
