@@ -22,7 +22,7 @@ The purpose of this data project is to demonstrate how weather data from multipl
 ### Part 2 - Docker & Airflow were installed
 <img src="Assets/Docker.png" width="80%">
 
-### Part 3 - Four different Python scripts were written:
+### Part 3 - Four different Python scripts were written
 <img src="Assets/Python_code.gif" width="80%">
 
 1. Weather_etl - Main script containing the pipeline and generates CSV file
@@ -30,7 +30,7 @@ The purpose of this data project is to demonstrate how weather data from multipl
 3. Weather_dag - automation code which runs the 2 previous scripts
 4. Google_drive_upload - script that loads data from local computer into Google Drive
 
-### Part 4 - AWS free tier account was created - Database credentials were generated
+### Part 4 - AWS free tier account was created (Database credentials were generated)
 <img src="Assets/AWS.png" width="80%">
 
 ### Part 5 - Azure Data Studio was downloaded to verify the loaded results
