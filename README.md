@@ -3,7 +3,7 @@
 ### Technical Description in Non-Technical Terms
 The purpose of this data project is to demonstrate how weather data from multiple cities in the U.S. gets extracted or fetched from *OpenWeather*, an open source (specifically an API - Application Programming Interface). Then it gets transformed or converted into the correct format, and finally loaded into a Postgre SQL database and into a Google Sheet (required step for data visualization with Tableau). The "Extraction Transforming & Loading" (ETL) process mentioned previously was completed with Python programming language across multiple scripts or files. However, additional processes include the automation of workflow (with Apache Airflow), and the use of several external technologies such as Amazon Web Services (AWS), Azure Data Studio, Docker & Google Developement software (credentials). 
 
-### Diagram For Technologies involved
+### Diagram For Technologies Involved
 <img src="Assets/Diagram.png" width="50%">
 
 ### Diagram Explanation: 
@@ -24,6 +24,7 @@ The purpose of this data project is to demonstrate how weather data from multipl
 
 ### Part 3 - Four different Python scripts were written:
 <img src="Assets/Python_code.gif" width="80%">
+
 1. Weather_etl - Main script containing the pipeline and generates CSV file
 2. Data_delete - script that deletes old data from the database 
 3. Weather_dag - automation code which runs the 2 previous scripts
