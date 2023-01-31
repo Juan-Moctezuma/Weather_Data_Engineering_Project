@@ -10,7 +10,7 @@ The purpose of this data project is to demonstrate how weather data from multipl
 1. Raw data flows from the OpenWeather API (free-source) - Account is required to request an API 'Key'
 2. Data gets modified and recorded through the ETL pipeline written in Python - which is automated by Apache Airflow (Docker dependant)
    - ETL gets automated as it runs in a given timeframe
-   - As part of the automation project, a 'Delete' script erases old weather data (at database) and updates CSV file (see *Data* folder)
+   - As part of the automation project, a 'Delete' script erases old weather data (at database) and updates CSV file (see *data* folder at top)
 3. Data ends up in two places:
    - Info. gets stored in a database - which is set up by Amazon Web Services (AWS) and uses Azure Data Studio (Graphical User Interface to run queries)
    - Info. gets iterated into a Google Sheet (Google Developers' credentials required), which gets connected to Tableau Public (Data Visualization tool)
