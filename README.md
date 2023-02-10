@@ -30,16 +30,19 @@ The purpose of this data project is to demonstrate how weather data from multipl
 3. Weather_dag - automation code which runs the 2 previous scripts
 4. Google_drive_upload - script that loads data from local computer into Google Drive
 
-### Part 4 - AWS free tier account was created (Database credentials were generated)
+### Part 4 - AWS free tier account was created (Database credentials were generated) for a relational database
 <img src="Assets/AWS.png" width="80%">
 
-### Part 5 - Azure Data Studio was downloaded to verify the loaded results
+### Part 5 - Azure Data Studio was downloaded to verify the loaded results from PostgreSQL database
 <img src="Assets/SQL_DB.gif" width="80%">
 
 ### Part 6 - Google credentials were created and downloaded as .JSON files
 <img src="Assets/Google_technologies.png" width="80%">
 
-### Part 7 - Results were manually compiled into a dashboard
+### Part 7 - The 'Google_drive_upload' script loads csv and copies it into a Google Sheet  
+<img src="Assets/Google_drive.png" width="80%">
+
+### Part 8 - Results from Google Sheet were manually compiled into a Tableau dashboard
 <img src="Assets/Tableau_results.gif" width="80%">
 Click the following to see the dashboard: https://public.tableau.com/app/profile/juan.moctezuma.flores/viz/WeatherData-U_S_Cities/RESULTSDASHBOARD
 
